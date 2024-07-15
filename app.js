@@ -8,3 +8,6 @@ let value = prompt(`กรุณาใส่ value ของ ${key}`);
 ectjob[key] = value;
 }
 console.log('Object:',ectjob);
+for (let key in ectjob) {
+  alert(`Key: ${key}, Value: ${ectjob[key]}`);
+}
